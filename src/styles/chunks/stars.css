@@ -1,0 +1,38 @@
+.rating .stars {
+	position: relative;
+	display: block;
+	float: left;
+	height: 20px;
+	width: 105px;
+	background-image: url("../images/stars.png");
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	margin-right: 5px;
+}
+.rating .stars .on {
+	height: 20px;
+	background-image: url("../images/stars.png");
+	background-position: 0 -20px;
+}
+.rating .stars .live {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.rating .stars .live span {
+	display: block;
+	float: left;
+	cursor: pointer;
+	width: 21px;
+	height: 20px;
+	background-image: url("../images/stars.png");
+	background-repeat: no-repeat;
+	background-position: 0 -20px;
+}
+.rating .stars .live span:hover ~ span {
+	background-position: 0 0px;
+}
+.rating .stars .live:hover {
+	opacity: 1;
+}
