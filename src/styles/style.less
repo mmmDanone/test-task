@@ -29,11 +29,12 @@ body {
 
 #citi-description {
 	display: flex;
-	align-items: center;
 
 	margin-bottom: 20px;
 
 	background-color: #fff;
+
+	align-items: center;
 
 	.img-citi-description {
 		line-height: 0;
@@ -47,18 +48,18 @@ body {
 		flex-grow: 1;
 		.forie({
 			//FOR IE 10 AND IE 11
-			 > * {
+			> * {
 				max-width: 380px;
 			}
 		});
 
-		 > h1 {
+		> h1 {
 			font-size: 29px;
 			font-weight: 700;
 			line-height: 35px;
 		}
 
-		 > p {
+		> p {
 			font-size: 17px;
 			font-weight: 400;
 			line-height: 25px;
@@ -69,7 +70,7 @@ body {
 		}
 	}
 
-	.full-citi-description > a {
+	.full-citi-description> a {
 		font-size: 17px;
 		font-weight: 500;
 		line-height: 25px;
@@ -108,13 +109,15 @@ body {
 	.autor-review {
 		margin-bottom: 10px;
 
-		 > img {
+		> img {
+			display: inline-block;
+
 			width: 30px;
 			height: 30px;
 			margin-right: 10px;
 		}
 
-		 > div {
+		> div {
 			font-family: 'Kievit Pro';
 			font-size: 17px;
 			font-weight: 400;
@@ -171,7 +174,7 @@ body {
 		height: 50px;
 		margin: 8px 0 20px 0;
 
-		 > .photo-gag {
+		> .photo-gag {
 			font-family: 'Roboto', sans-serif;
 			font-size: 17px;
 			font-weight: 500;
@@ -191,7 +194,7 @@ body {
 			background: rgba(16, 16, 16, .5);
 		}
 
-		 > .photo-collection {
+		> .photo-collection {
 			* {
 				display: inline-block;
 			}
@@ -217,7 +220,7 @@ body {
 
 		color: #9d9d9d;
 
-		 > .data {
+		> .data {
 			&::after {
 				display: inline-block;
 
@@ -233,7 +236,7 @@ body {
 			}
 		}
 
-		 > .c-comm {
+		> .c-comm {
 			flex-grow: 1;
 		}
 
@@ -318,7 +321,7 @@ body {
 	.ava-recipient {
 		margin-right: 15px;
 
-		 > img {
+		> img {
 			line-height: 0;
 		}
 	}
@@ -326,13 +329,13 @@ body {
 	.name-recipient {
 		flex-grow: 1;
 
-		 > .name {
+		> .name {
 			font-size: 18px;
 			font-weight: 700;
 			line-height: 17px;
 		}
 
-		 > .position {
+		> .position {
 			font-size: 13px;
 			font-weight: 400;
 			line-height: 17px;
@@ -343,7 +346,7 @@ body {
 
 			color: #ff4641;
 
-			 > span {
+			> span {
 				position: absolute;
 				top: 4px;
 				left: 0;
@@ -374,7 +377,7 @@ body {
 		background-color: #f9f7f2;
 	}
 
-	 > div {
+	> div {
 		display: flex;
 
 		margin: 5px 0;
@@ -382,7 +385,7 @@ body {
 
 		justify-content: space-between;
 
-		 > .text {
+		> .text {
 			font-size: 15px;
 			font-weight: 400;
 			line-height: 24px;
@@ -394,7 +397,7 @@ body {
 
 			flex-grow: 1;
 
-			 > .time {
+			> .time {
 				font-family: 'Roboto', sans-serif;
 				font-size: 11px;
 				font-weight: normal;
@@ -416,14 +419,14 @@ body {
 
 	align-items: center;
 
-	 > .text {
+	> .text {
 		line-height: 0;
 
 		padding: 0 10px;
 
 		flex-grow: 1;
 
-		 > textarea {
+		> textarea {
 			font-family: 'Kievit Pro';
 			font-size: 15px;
 			line-height: 20px;
@@ -441,8 +444,8 @@ body {
 		}
 	}
 
-	 > .send {
-		 > button {
+	> .send {
+		> button {
 			cursor: pointer;
 
 			background: none;
@@ -462,7 +465,7 @@ body {
 
 	background: rgba(0, 0, 0, .8);
 
-	 > div {
+	> div {
 		display: table-cell;
 
 		box-sizing: border-box;
@@ -488,7 +491,7 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-between;
 
-	 > * {
+	> * {
 		display: block;
 	}
 
